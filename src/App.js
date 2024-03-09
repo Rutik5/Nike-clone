@@ -1,23 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import TopNav from './Components/TopNav';
+import Navbar from './Components/Navbar';
+import DiscountHeader from './Components/DiscountHeader';
+import MainCarousel from './Components/MainCarousel';
+import BodyCarausal from './Components/BodyCarausal';
+import Featured from './Components/Featured';
+import NikePhotos from './Components/NikePhotos';
+import NikeMedia from './Components/NikeMedia';
+import AlwaysIconic from './Components/AlwaysIconic';
+import ShopBySport from './Components/ShopBySport';
+import MemberBenefits from './Components/MemberBenifits';
+import Options from './Components/Options';
+import Footer  from './Components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TopNav />
+      <Navbar />
+      <DiscountHeader />
+      <MainCarousel />
+      <BodyCarausal />
+      <Featured />
+      <NikePhotos />
+      <NikeMedia />
+      <AlwaysIconic />
+      <ShopBySport />
+      <MemberBenefits />
+      <Options />
+      <Footer />
     </div>
   );
 }
